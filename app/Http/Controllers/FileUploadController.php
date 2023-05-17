@@ -30,6 +30,7 @@ class fileuploadcontroller extends Controller
                 $user->files = implode('!!',array_merge($ExisitingFiles,$fileNames));
             }
         }
+        // ывывывывыв
         else{
             if ($request->file('file')) {
                 foreach ($request->file('file') as $file) {
